@@ -3,11 +3,11 @@ import streamlit as st
 # ページ設定
 st.set_page_config(page_title="緒方ツールポータル", layout="centered")
 
-# カスタムCSSで見た目を整える
+# カスタムCSS
 st.markdown("""
     <style>
     .credit { text-align: right; font-size: 14px; color: #666; margin-bottom: -20px; }
-    .stButton>button { height: 3em; font-size: 20px !important; font-weight: bold !important; }
+    .stButton>button { height: 3.5em; font-size: 18px !important; font-weight: bold !important; border-radius: 10px; }
     </style>
     """, unsafe_allow_html=True)
 
@@ -17,17 +17,14 @@ st.write("使いたいツールを選択してください")
 st.markdown("---")
 
 # アプリのリストとURL
-# ※ https://xxxx.streamlit.app の部分を、ご自身の実際のアプリURLに書き換えてください
+# 先頭や途中に全角スペースが入らないよう修正済みです
 apps = {
-　　"📱 伝送換算アシスト (200-999)": "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
-    "📱 伝送換算アシスト (990h-FD0h)": "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
-    "⚡ 消費電力計算": "https://share.streamlit.io/ogatakun0113-dot/dbm-w-calc/main/app.py",
-    "📡 dBm⇄dBμV変換": "https://share.streamlit.io/ogatakun0113-dot/dbm-dbuv-conv/main/app.py",
-    "🌐 IPv4サブネット": "https://share.streamlit.io/ogatakun0113-dot/ip-calc/main/app.py",
-    "📏 電圧降下計算": "https://share.streamlit.io/ogatakun0113-dot/voltage-drop/main/app.py",
-    "⚖️ 質量・重量計算": "https://share.streamlit.io/ogatakun0113-dot/weight-calc/main/app.py",
-    "📐 面積・畳換算": "https://share.streamlit.io/ogatakun0113-dot/area-calc/main/app.py",
-    "🎨 カラー抵抗識別": "https://share.streamlit.io/ogatakun0113-dot/resistor-color/main/app.py",
+    "🔢 伝送換算アシスト": "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
+    "⚡ 消費電力計算": "https://dbm-w-calc-ogata.streamlit.app/",
+    "📡 dBm⇄dBμV変換": "https://dbm-dbuv-conv-ogata.streamlit.app/",
+    "📏 電圧降下計算": "https://voltage-drop-ogata.streamlit.app/",
+    "⚖️ 質量・重量計算": "https://weight-calc-ogata.streamlit.app/",
+    "🌐 IPv4サブネット": "https://ip-calc-ogata.streamlit.app/"
 }
 
 # 2列でボタンを配置
@@ -37,4 +34,4 @@ for i, (name, url) in enumerate(apps.items()):
         st.link_button(name, url, use_container_width=True)
 
 st.markdown("---")
-st.caption("各ツールを個別に開いて、ブラウザのメニューから「ホーム画面に追加」すると便利です。")
+st.caption("※ボタンを押すと各アプリのページに移動します。")
