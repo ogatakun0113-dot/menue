@@ -19,6 +19,8 @@ st.markdown("---")
 # アプリのリストとURL
 # ※ https://xxxx.streamlit.app の部分を、ご自身の実際のアプリURLに書き換えてください
 apps = {
+　　"📱 伝送換算アシスト (200-999)":"https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
+    "📱 伝送換算アシスト (990h-FD0h)"https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
     "⚡ 消費電力計算": "https://share.streamlit.io/ogatakun0113-dot/dbm-w-calc/main/app.py",
     "📡 dBm⇄dBμV変換": "https://share.streamlit.io/ogatakun0113-dot/dbm-dbuv-conv/main/app.py",
     "🌐 IPv4サブネット": "https://share.streamlit.io/ogatakun0113-dot/ip-calc/main/app.py",
