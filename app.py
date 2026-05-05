@@ -20,8 +20,8 @@ st.markdown("---")
 # 先頭や途中に全角スペースが入らないよう修正済みです
 apps = {
     "🔢 伝送換算アシスト(200-999)": "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
-     "📡 無線設備計算": "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/",
     "🔢 伝送換算アシスト(990-FD0)": "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/",
+    "📡 無線設備計算": "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/",
     "⚡ 消費電力計算": "https://p-e-i-w-ciq65gzsje57g5t2bjibev.streamlit.app/",
     "📡 dBm⇄dBμV変換": "https://dbm-dbuv-converter-aeqcnqxhxypoemfnmbecwh.streamlit.app/",
     "📏 電圧降下計算": "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/",
