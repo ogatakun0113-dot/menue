@@ -28,8 +28,8 @@ apps = {
     "📡 W ⇄dBm 相互変換": "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/",
     
     "📐 面積・坪・畳 換算": "https://m9ebpan3hnocsbchjgnc3c.streamlit.app/",
-    "⚖️ 質量・重量計算": "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/",
     "🌐 IPv4サブネット": "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/",
+    "⚖️ 質量・重量計算": "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/",
     "🎨 カラー抵抗計算": "https://lbocbpi8ohzxyhudcamols.streamlit.app/",
     
 }
