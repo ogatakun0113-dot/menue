@@ -19,9 +19,9 @@ st.markdown("---")
 # アプリのリストとURL
 # 先頭や途中に全角スペースが入らないよう修正済みです
 apps = {
-    "🔢 伝送換算アシスト(200-999)": "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
+    "🔢 伝送値換算(200-999)(DEC)": "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
     "🌐 IPv4サブネット": "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/", 
-    "🔢 伝送換算アシスト(990-FD0)": "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/",
+    "🔢 伝送値(990-FD0)(HEX)": "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/",
     "⚡ 消費電力計算": "https://p-e-i-w-ciq65gzsje57g5t2bjibev.streamlit.app/",
      "📡 ＶＳＷＲ計算": "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/",
     "📏 電圧降下計算": "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/",
