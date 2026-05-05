@@ -26,7 +26,8 @@ apps = {
     "📡 W → dBm 変換": "https://yltvyhyz4sgt94sdxrwumm.streamlit.app/",
      "⚡ 消費電力計算": "https://p-e-i-w-ciq65gzsje57g5t2bjibev.streamlit.app/",
     "📏 電圧降下計算": "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/",
-    "⚖️ 質量・重量計算": "https://weight-calc-ogata.streamlit.app/",
+    "📐 面積・坪・畳 換算": https://m9ebpan3hnocsbchjgnc3c.streamlit.app/",
+    "⚖️ 質量・重量計算": "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/",
     "🌐 IPv4サブネット": "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/",
     "🎨 カラー抵抗計算": "https://lbocbpi8ohzxyhudcamols.streamlit.app/",
 }
