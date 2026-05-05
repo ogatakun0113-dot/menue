@@ -24,6 +24,7 @@ apps = {
     "🔢 伝送値換算(990-FD0)(HEX)": "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/",
     "⚡ 消費電力計算": "https://p-e-i-w-ciq65gzsje57g5t2bjibev.streamlit.app/",
      "📡 ＶＳＷＲ計算": "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/",
+    "🔢 伝送値換算(3200-FA00)(HEX)": "https://denatus-kouka-aktoharzrfntzg3ujbemx3.streamlit.app/",
     "📏 電圧降下計算": "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/",
     "📡 W ⇄dBm 相互変換": "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/",
     
