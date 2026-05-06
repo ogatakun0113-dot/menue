@@ -16,27 +16,39 @@ st.title("🌐 緒方ツールポータル")
 st.write("使いたいツールを選択してください")
 st.markdown("---")
 
-# アプリのリストとURL
-# 先頭や途中に全角スペースが入らないよう修正済みです
-apps = {
-    "🔢 伝送値換算(200-999)(DEC)": "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/",
-    "📡 ＶＳＷＲ計算": "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/",
-   "🔢 伝送値換算(990-FD0)(HEX)": "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/",
-    "📡 dBm⇄dBμV変換": "https://dbm-dbuv-converter-aeqcnqxhxypoemfnmbecwh.streamlit.app/",  
-    "🔢 伝送値換算(3200-FA00)(HEX)": "https://denatus-kouka-aktoharzrfntzg3ujbemx3.streamlit.app/",
-   "📡 W ⇄ dBμV 相互変換": "https://w-db-v-5oemhzumvdhiaf4shewlhp.streamlit.app/",
-    "📡 W ⇄ dBm 相互変換": "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/",  
-   "📏 電圧降下計算": "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/",
-    "⚖️ 質量・重量計算": "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/",
-    "⚡ 消費電力計算": "https://p-e-i-w-ciq65gzsje57g5t2bjibev.streamlit.app/",
-     "🌐 IPv4サブネット": "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/", 
-    "📐 面積・坪・畳 換算": "https://m9ebpan3hnocsbchjgnc3c.streamlit.app/",
-     "🎨 カラー抵抗計算": "https://lbocbpi8ohzxyhudcamols.streamlit.app/",
-}
+# アプリのリストとURL (左1→右1→左2→右2 の順に並べています)
+apps = [
+    # 1行目
+    ("🔢 伝送値換算(200-999)(DEC)", "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/"),
+    ("📡 ＶＳＷＲ計算", "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/"),
+    
+    # 2行目
+    ("🔢 伝送値換算(990-FD0)(HEX)", "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/"),
+    ("🌐 IPv4サブネット", "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/"),
+    
+    # 3行目
+    ("🔢 伝送値換算(3200-FA00)(HEX)", "https://denatus-kouka-aktoharzrfntzg3ujbemx3.streamlit.app/"),
+    ("⚡ 消費電力計算", "https://p-e-i-w-ciq65gzsje57g5t2bjibev.streamlit.app/"),
+    
+    # 4行目
+    ("📡 dBm⇄dBμV変換", "https://dbm-dbuv-converter-aeqcnqxhxypoemfnmbecwh.streamlit.app/"),
+    ("📏 電圧降下計算", "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/"),
+    
+    # 5行目
+    ("📡 W ⇄ dBμV 相互変換", "https://w-db-v-5oemhzumvdhiaf4shewlhp.streamlit.app/"),
+    ("📐 面積・坪・畳 換算", "https://m9ebpan3hnocsbchjgnc3c.streamlit.app/"),
+    
+    # 6行目
+    ("📡 W ⇄ dBm 相互変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
+    ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
+    
+    # 7行目
+    ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
+]
 
 # 2列でボタンを配置
 cols = st.columns(2)
-for i, (name, url) in enumerate(apps.items()):
+for i, (name, url) in enumerate(apps):
     with cols[i % 2]:
         st.link_button(name, url, use_container_width=True)
 
