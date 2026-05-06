@@ -16,7 +16,7 @@ st.title("🌐 緒方ツールポータル")
 st.write("使いたいツールを選択してください")
 st.markdown("---")
 
-# アプリのリストとURL (左→右→左→右の順)
+# アプリのリストとURL (左→右→左→右の順で配置されます)
 apps = [
     # 1行目
     ("🔢 伝送値換算(200-999)(DEC)", "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/"),
@@ -42,16 +42,20 @@ apps = [
     ("📡 W ⇄ dBm 相互変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
-    # 7行目
-    ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"), 
+    # 7行目: 左側空白 / 右側カラー抵抗
+    ("", ""), 
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
+
+    # 8行目: 左側空白 / 右側コンデンサー
+    ("", ""),
+    ("⚡ コンデンサー容量・種類判別", "https://your-capacitor-tool-url.streamlit.app/"),
 ]
 
 # 2列でボタンを配置
 cols = st.columns(2)
 for i, (name, url) in enumerate(apps):
     with cols[i % 2]:
-        if name: # 名前がある場合のみボタンを表示
+        if name: # 名前（ラベル）がある場合のみボタンを表示
             st.link_button(name, url, use_container_width=True)
 
 st.markdown("---")
