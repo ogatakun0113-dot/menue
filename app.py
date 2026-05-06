@@ -43,7 +43,7 @@ apps = [
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
     # 7行目
-    ("⚡ コンデンサー容量・種類判別", "https://your-capacitor-tool-url.streamlit.app/"), # ここに発行されたURLを貼ってください
+    ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"), 
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 ]
 
