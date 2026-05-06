@@ -42,8 +42,8 @@ apps = [
     ("📡 W ⇄ dBm 相互変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
-    # 7行目 (左側を空にするためのダミー)
-    ("", ""), 
+    # 7行目
+    ("⚡ コンデンサー容量・種類判別", "https://your-capacitor-tool-url.streamlit.app/"), # ここに発行されたURLを貼ってください
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 ]
 
