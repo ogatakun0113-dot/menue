@@ -16,7 +16,7 @@ st.title("🌐 緒方ツールポータル")
 st.write("使いたいツールを選択してください")
 st.markdown("---")
 
-# アプリのリストとURL (左1→右1→左2→右2 の順に並べています)
+# アプリのリストとURL (左→右→左→右の順)
 apps = [
     # 1行目
     ("🔢 伝送値換算(200-999)(DEC)", "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/"),
@@ -42,7 +42,8 @@ apps = [
     ("📡 W ⇄ dBm 相互変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
-    # 7行目
+    # 7行目 (左側を空にするためのダミー)
+    ("", ""), 
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 ]
 
@@ -50,7 +51,8 @@ apps = [
 cols = st.columns(2)
 for i, (name, url) in enumerate(apps):
     with cols[i % 2]:
-        st.link_button(name, url, use_container_width=True)
+        if name: # 名前がある場合のみボタンを表示
+            st.link_button(name, url, use_container_width=True)
 
 st.markdown("---")
 st.caption("※ボタンを押すと各アプリのページに移動します。")
