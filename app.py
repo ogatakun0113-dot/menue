@@ -48,7 +48,7 @@ apps = [
 
     # 8行目: 左側空白 / 右側コンデンサー
     ("", ""),
-    ("⚡ コンデンサー容量・種類判別", "https://your-capacitor-tool-url.streamlit.app/"),
+    ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 ]
 
 # 2列でボタンを配置
