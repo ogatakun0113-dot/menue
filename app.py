@@ -25,9 +25,9 @@ apps = {
     "⚡ 消費電力計算": "https://p-e-i-w-ciq65gzsje57g5t2bjibev.streamlit.app/",
     "🔢 伝送値換算(3200-FA00)(HEX)": "https://denatus-kouka-aktoharzrfntzg3ujbemx3.streamlit.app/",
     "📡 ＶＳＷＲ計算": "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/",
-        "📏 電圧降下計算": "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/",
-    "📡 W ⇄dBm 相互変換": "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/",
-    
+     "📡 dBm⇄dBμV変換": "https://dbm-dbuv-converter-aeqcnqxhxypoemfnmbecwh.streamlit.app/",   
+    "📏 電圧降下計算": "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/",
+    "📡 dBm⇄dBμV変換": "https://dbm-dbuv-converter-aeqcnqxhxypoemfnmbecwh.streamlit.app/",
     "📐 面積・坪・畳 換算": "https://m9ebpan3hnocsbchjgnc3c.streamlit.app/",
    "📡 dBm⇄dBμV変換": "https://dbm-dbuv-converter-aeqcnqxhxypoemfnmbecwh.streamlit.app/",
     "⚖️ 質量・重量計算": "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/",
