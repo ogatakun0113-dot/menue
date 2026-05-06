@@ -30,10 +30,9 @@ apps = {
     "📡 dBm⇄dBμV変換": "https://dbm-dbuv-converter-aeqcnqxhxypoemfnmbecwh.streamlit.app/",
     "📡 W ⇄ dBμV 相互変換": "https://w-db-v-5oemhzumvdhiaf4shewlhp.streamlit.app/",
     "📐 面積・坪・畳 換算": "https://m9ebpan3hnocsbchjgnc3c.streamlit.app/",
-      
+     "📡 W ⇄ dBm 相互変換": "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/", 
     "⚖️ 質量・重量計算": "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/",
-   "📡 W ⇄ dBm 相互変換": "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/",
-    "🎨 カラー抵抗計算": "https://lbocbpi8ohzxyhudcamols.streamlit.app/",
+       "🎨 カラー抵抗計算": "https://lbocbpi8ohzxyhudcamols.streamlit.app/",
     
 }
 
