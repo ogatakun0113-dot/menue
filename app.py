@@ -48,7 +48,7 @@ apps = [
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
     # 8行目
-    ("📡 無線回線設計シミュレーター", "https://xxxxx.streamlit.app/"), # VSWRの下（左側）へ移動
+    ("📡 無線回線設計シミュレーター", "https://kaisen-8haqu59gckjy2gi4a5jp5p.streamlit.app/"), # VSWRの下（左側）へ移動
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 
     # 9行目
