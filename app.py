@@ -17,15 +17,14 @@ st.write("使いたいツールを選択してください")
 st.markdown("---")
 
 # アプリのリストとURL
-# 指定箇所以外は元の順番を維持しています
 apps = [
     # 1行目
     ("🔢 伝送値換算(200-999)(DEC)", "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/"),
-    ("🌐 IPv4サブネット", "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/"), # 右1列目へ移動
+    ("🌐 IPv4サブネット", "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/"),
     
     # 2行目
     ("🔢 伝送値換算(990-FD0)(HEX)", "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/"),
-    ("🔍 ポートスキャンツール", "https://traceroute-dh8dbomk7zmwzhngojchrs.streamlit.app/"), # 右2列目へ移動
+    ("🔍 ポートスキャンツール", "https://traceroute-dh8dbomk7zmwzhngojchrs.streamlit.app/"),
     
     # 3行目
     ("🔢 伝送値換算(3200-FA00)(HEX)", "https://denatus-kouka-aktoharzrfntzg3ujbemx3.streamlit.app/"),
@@ -44,20 +43,20 @@ apps = [
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
     # 7行目
-    ("📡 ＶＳＷＲ計算", "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/"), # 左7列目へ移動
+    ("📡 ＶＳＷＲ計算", "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/"),
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
     # 8行目
-    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), # 左8列目へ移動
+    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"),
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 
     # 9行目
-    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"), # 左9列目へ移動
-    ("🔌 オームの法則計算", "https://et2n3e8fbbryhpbmwsbvyc.streamlit.app/"), # 維持
+    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"),
+    ("🔌 オームの法則計算", "https://et2n3e8fbbryhpbmwsbvyc.streamlit.app/"),
 
     # 10行目
-    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"), # 維持
-    ("", ""), 
+    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"),
+    ("📡 無線回線設計シミュレーター", "https://xxxxx.streamlit.app/"), # 右10列目に配置
 ]
 
 # 2列でボタンを配置
@@ -67,5 +66,7 @@ for i, (name, url) in enumerate(apps):
         if name:
             st.link_button(name, url, use_container_width=True)
 
+st.markdown("---")
+st.caption("※ボタンを押すと各アプリのページに移動します。")
 st.markdown("---")
 st.caption("※ボタンを押すと各アプリのページに移動します。")
