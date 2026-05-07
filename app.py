@@ -25,7 +25,7 @@ apps = [
     
     # 2行目
     ("🔢 伝送値換算(990-FD0)(HEX)", "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/"),
-    ("🔍 ポートスキャンツール", "https://port-scan-xxxxx.streamlit.app/"), # 右2列目へ移動
+    ("🔍 ポートスキャンツール", "https://traceroute-dh8dbomk7zmwzhngojchrs.streamlit.app/"), # 右2列目へ移動
     
     # 3行目
     ("🔢 伝送値換算(3200-FA00)(HEX)", "https://denatus-kouka-aktoharzrfntzg3ujbemx3.streamlit.app/"),
@@ -48,15 +48,15 @@ apps = [
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
     # 8行目
-    ("📡 同軸ケーブルロス計算", "https://coaxial-loss-xxxxx.streamlit.app/"), # 左8列目へ移動
+    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), # 左8列目へ移動
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 
     # 9行目
-    ("📉 アッテネータ計算", "https://attenuator-calc-xxxxx.streamlit.app/"), # 左9列目へ移動
-    ("🔌 オームの法則計算", "https://ohm-calc-xxxxx.streamlit.app/"), # 維持
+    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"), # 左9列目へ移動
+    ("🔌 オームの法則計算", "https://et2n3e8fbbryhpbmwsbvyc.streamlit.app/"), # 維持
 
     # 10行目
-    ("🔋 バッテリー持続計算", "https://battery-calc-xxxxx.streamlit.app/"), # 維持
+    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"), # 維持
     ("", ""), 
 ]
 
