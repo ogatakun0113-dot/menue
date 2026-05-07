@@ -44,19 +44,19 @@ apps = [
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
     # 7行目: 左側に新設 / 右側カラー抵抗(既存)
-    ("🔌 オームの法則計算", "https://ohm-calc-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
+    ("🔌 オームの法則計算", "https://et2n3e8fbbryhpbmwsbvyc.streamlit.app/"), # ※URLは適宜修正してください
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
     # 8行目: 左側に新設 / 右側コンデンサー(既存)
-    ("🔋 バッテリー持続計算", "https://battery-calc-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
+    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"), # ※URLは適宜修正してください
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 
     # 9行目: ここから新設行
-    ("📡 同軸ケーブルロス計算", "https://coaxial-loss-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
-    ("📉 アッテネータ計算", "https://attenuator-calc-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
+    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), # ※URLは適宜修正してください
+    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"), # ※URLは適宜修正してください
 
     # 10行目
-    ("🔍 ポートスキャンツール", "https://port-scan-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
+    ("🔍 ポートスキャンツール", "https://smphwhjpmsc7rkvqq4vwz5.streamlit.app/"), # ※URLは適宜修正してください
     ("", ""), # 予備
 ]
 
