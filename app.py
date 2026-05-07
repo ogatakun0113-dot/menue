@@ -56,7 +56,7 @@ apps = [
 
     # 10行目
     ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"),
-    ("📡 無線回線設計シミュレーター", "https://xxxxx.streamlit.app/"), # 右10列目に配置
+    ("📡 無線回線設計シミュレーター", "https://kaisen-8haqu59gckjy2gi4a5jp5p.streamlit.app/"), # 右10列目に配置
 ]
 
 # 2列でボタンを配置
