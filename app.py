@@ -17,6 +17,7 @@ st.write("使いたいツールを選択してください")
 st.markdown("---")
 
 # アプリのリストとURL
+# 左側（奇数番目）に無線・計算系、右側（偶数番目）にネット・電気・換算系を整理
 apps = [
     # 1行目
     ("🔢 伝送値換算(200-999)(DEC)", "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/"),
@@ -47,16 +48,16 @@ apps = [
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
     # 8行目
-    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"),
+    ("📡 無線回線設計シミュレーター", "https://xxxxx.streamlit.app/"), # VSWRの下（左側）へ移動
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 
     # 9行目
-    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"),
+    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), # 以降下にシフト
     ("🔌 オームの法則計算", "https://et2n3e8fbbryhpbmwsbvyc.streamlit.app/"),
 
     # 10行目
-    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"),
-    ("📡 無線回線設計シミュレーター", "https://kaisen-8haqu59gckjy2gi4a5jp5p.streamlit.app/"), # 右10列目に配置
+    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"), # 以降下にシフト
+    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"), # 右側一番下へ移動
 ]
 
 # 2列でボタンを配置
@@ -66,7 +67,5 @@ for i, (name, url) in enumerate(apps):
         if name:
             st.link_button(name, url, use_container_width=True)
 
-st.markdown("---")
-st.caption("※ボタンを押すと各アプリのページに移動します。")
 st.markdown("---")
 st.caption("※ボタンを押すと各アプリのページに移動します。")
