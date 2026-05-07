@@ -16,7 +16,8 @@ st.title("🌐 ツールBOX")
 st.write("使いたいツールを選択してください")
 st.markdown("---")
 
-# アプリのリストとURL (左→右→左→右の順で配置されます)
+# アプリのリストとURL
+# 既存の配置を維持しつつ、空白だった場所に新ツールを割り当てました
 apps = [
     # 1行目
     ("🔢 伝送値換算(200-999)(DEC)", "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/"),
@@ -42,13 +43,21 @@ apps = [
     ("📡 W ⇄ dBm 変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
-    # 7行目: 左側空白 / 右側カラー抵抗
-    ("", ""), 
+    # 7行目: 左側に新設 / 右側カラー抵抗(既存)
+    ("🔌 オームの法則計算", "https://ohm-calc-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
-    # 8行目: 左側空白 / 右側コンデンサー
-    ("", ""),
+    # 8行目: 左側に新設 / 右側コンデンサー(既存)
+    ("🔋 バッテリー持続計算", "https://battery-calc-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
+
+    # 9行目: ここから新設行
+    ("📡 同軸ケーブルロス計算", "https://coaxial-loss-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
+    ("📉 アッテネータ計算", "https://attenuator-calc-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
+
+    # 10行目
+    ("🔍 ポートスキャンツール", "https://port-scan-xxxxx.streamlit.app/"), # ※URLは適宜修正してください
+    ("", ""), # 予備
 ]
 
 # 2列でボタンを配置
