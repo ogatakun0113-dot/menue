@@ -35,11 +35,11 @@ apps = [
     ("📏 電圧降下計算", "https://denatus-kouka-mkzokbttfxvxryb4x9kxe6.streamlit.app/"),
     
     # 5行目
-    ("📡 W ⇄ dBμV 相互変換", "https://w-db-v-5oemhzumvdhiaf4shewlhp.streamlit.app/"),
+    ("📡 W ⇄ dBμV 変換", "https://w-db-v-5oemhzumvdhiaf4shewlhp.streamlit.app/"),
     ("📐 面積・坪・畳 換算", "https://m9ebpan3hnocsbchjgnc3c.streamlit.app/"),
     
     # 6行目
-    ("📡 W ⇄ dBm 相互変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
+    ("📡 W ⇄ dBm 変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
     # 7行目: 左側空白 / 右側カラー抵抗
