@@ -43,21 +43,25 @@ apps = [
     ("📡 W ⇄ dBm 変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
-    # 7行目
-    ("📡 ＶＳＷＲ計算", "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/"),
+    # 7行目：ここに追加
+    ("📊 dBm ⇄ dBμV ⇄ W 相互換算", "https://dbm-db-v-w-2md7mdknq82tgjhukqus6p.streamlit.app/"),
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
-    # 8行目
-    ("📡 無線回線設計シミュレーター", "https://kaisen-8haqu59gckjy2gi4a5jp5p.streamlit.app/"), # VSWRの下（左側）へ移動
+    # 8行目：左側を下にシフト
+    ("📡 ＶＳＷＲ計算", "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/"),
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 
     # 9行目
-    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), # 以降下にシフト
+    ("📡 無線回線設計シミュレーター", "https://kaisen-8haqu59gckjy2gi4a5jp5p.streamlit.app/"), 
     ("🔌 オームの法則計算", "https://et2n3e8fbbryhpbmwsbvyc.streamlit.app/"),
 
     # 10行目
-    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"), # 以降下にシフト
-    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"), # 右側一番下へ移動
+    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), 
+    ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"),
+
+    # 11行目
+    ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"),
+    (None, None), # 右側は空欄（変更なし）
 ]
 
 # 2列でボタンを配置
