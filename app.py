@@ -43,11 +43,11 @@ apps = [
     ("📡 W ⇄ dBm 変換", "https://dxzv2ve2tarf3epbjekvk6.streamlit.app/"),
     ("⚖️ 質量・重量計算", "https://cx6vhj5b5eaum7yrtghzkm.streamlit.app/"),
     
-    # 7行目：ここに追加
+    # 7行目
     ("📊 dBm ⇄ dBμV ⇄ W 相互換算", "https://dbm-db-v-w-2md7mdknq82tgjhukqus6p.streamlit.app/"),
     ("🎨 カラー抵抗計算", "https://lbocbpi8ohzxyhudcamols.streamlit.app/"),
 
-    # 8行目：左側を下にシフト
+    # 8行目
     ("📡 ＶＳＷＲ計算", "https://y2gpx3glcpxabyvquqwsu8.streamlit.app/"),
     ("⚡ コンデンサー容量・種類判別", "https://kondensa-fnudpeexwnfu7mz4dgziam.streamlit.app/"),
 
@@ -61,7 +61,7 @@ apps = [
 
     # 11行目
     ("📉 アッテネータ計算", "https://nytsvfneh7k5juuploydur.streamlit.app/"),
-    (None, None), # 右側は空欄（変更なし）
+    ("📺 テレビ・ラジオ番組表", "https://cw62cfu7zm7iar6znuxzbg.streamlit.app/"), # 右側一番下に追加
 ]
 
 # 2列でボタンを配置
