@@ -1,7 +1,7 @@
 import streamlit as st
 
 # ページ設定
-st.set_page_config(page_title="緒方ツールBOX", layout="centered")
+st.set_page_config(page_title="緒方toolbox", layout="centered")
 
 # カスタムCSS
 st.markdown("""
@@ -12,7 +12,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 st.markdown('<p class="credit">開発/制作：緒方</p>', unsafe_allow_html=True)
-st.title("🌐 緒方ツールBOX")
+st.title("🌐緒方toolbox")
 st.write("使いたいツールを選択してください")
 st.markdown("---")
 
