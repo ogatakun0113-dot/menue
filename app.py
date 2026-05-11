@@ -56,7 +56,7 @@ apps = [
     ("🔌 オームの法則計算", "https://et2n3e8fbbryhpbmwsbvyc.streamlit.app/"),
 
     # 10行目
-    ("📡 同軸ケーブルロス計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), 
+    ("📡 同軸ケーブル損失計算", "https://sonsitus-8mequgtoz7d3i9znsbje4j.streamlit.app/"), 
     ("🔋 バッテリー持続計算", "https://gzgy6vngtgrgxbafzgczbd.streamlit.app/"),
 
     # 11行目
