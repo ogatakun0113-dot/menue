@@ -25,7 +25,7 @@ apps = [
     
     # 2行目
     ("🔢 伝送値換算(990-FD0)(HEX)", "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/"),
-    ("🔍 ポートスキャンツール", "https://traceroute-dh8dbomk7zmwzhngojchrs.streamlit.app/"),
+    ("🔍 IPv4ポートスキャンツール", "https://traceroute-dh8dbomk7zmwzhngojchrs.streamlit.app/"),
     
     # 3行目
     ("🔢 伝送値換算(3200-FA00)(HEX)クラウドTM", "https://denatus-kouka-aktoharzrfntzg3ujbemx3.streamlit.app/"),
