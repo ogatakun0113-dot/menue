@@ -21,7 +21,7 @@ st.markdown("---")
 apps = [
     # 1行目
     ("🔢 伝送値換算(200-999)(DEC)", "https://200-999-o244vkvrcu7wufxndezrc5.streamlit.app/"),
-    ("🌐 IPv4サブネット", "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/"),
+    ("🌐 IPv4サブネットマスク計算", "https://lan-ip-6a84chs983d8qrywcfi8ek.streamlit.app/"),
     
     # 2行目
     ("🔢 伝送値換算(990-FD0)(HEX)", "https://990-fd0-br5qdwlqpcg6xgzndxrfxk.streamlit.app/"),
